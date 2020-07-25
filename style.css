@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0%;
+  margin: 0%;
+}
+/*contener1*/
+header {
+  text-transform: capitalize;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 32px;
+}
+.hed {
+  margin: 11px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.aa {
+  color: black;
+  text-decoration: none;
+}
+.for {
+  margin: 11px;
+  padding: 5px;
+  width: 69px;
+  color: white;
+  background-color: rgb(136, 136, 236);
+  border-radius: 5px;
+  border: 1px solid rgb(147, 147, 252);
+}
+.aa:hover {
+  text-decoration: underline;
+  color: rgb(63, 62, 62);
+}
+/*contenar2*/
+.section {
+  width: 100%;
+}
+.dvimg {
+  width: 20.5%;
+  height: 5%;
+  margin: auto;
+  margin-top: 102px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.divfor {
+  width: 47%;
+  height: 5%;
+  margin: auto;
+}
+.for2 {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: 1px solid rgb(236, 236, 236);
+  border-radius: 25px;
+  margin: 25px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.for2:hover {
+  box-shadow: 1.5px 1.5px 1.5px rgb(236, 236, 236),
+    -1.5px -1.5px 1.5px rgb(236, 236, 236);
+}
+.in2 {
+  width: 90%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 35px;
+  /*padding-right: 51px;*/
+}
+.img3 {
+  width: 1.3vw;
+  max-height: 1.8vw;
+}
+/*.img3:scope {
+  border: 1px solid darkred;
+}*/
+nav {
+  width: 22%;
+  max-height: 3%;
+  margin: auto;
+  padding-top: 25x;
+  display: flex;
+  justify-content: space-between;
+}
+.sb2 {
+  width: 48%;
+}
+.sbb {
+  padding: 11px 5px;
+  width: 100%;
+  font-size: 14px;
+  border: none;
+  background-color: rgb(240, 238, 238);
+  color: rgb(63, 62, 62);
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.sbb:hover {
+  border: 1px solid silver;
+  color: black;
+  background-color: rgb(243, 243, 243);
+}
+footer {
+  width: 100%;
+  padding-top: 200px;
+}
+.dvfot {
+  width: 100%;
+  display: flex;
+  background-color: rgb(241, 238, 238);
+  border-top: 1px solid rgb(214, 214, 214);
+  border-bottom: 1px solid silver;
+  padding: 11px;
+}
+.dvv,
+.dvvv {
+  width: 50%;
+}
+.dvvv {
+  padding-left: 34%;
+}
+.a2 {
+  padding: 11px;
+  color: rgb(94, 93, 93);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.a2:hover {
+  text-decoration: underline;
+}
